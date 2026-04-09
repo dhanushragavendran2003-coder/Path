@@ -1,0 +1,23 @@
+{
+  "career": "Hardware Engineer",
+  "confidence": 28.999999999999996,
+  "is_low_confidence": true,
+  "probabilities": {
+    "AI ML Specialist": 0.0,
+    "API Specialist": 0.18,
+    "Application Support Engineer": 0.02,
+    "Business Analyst": 0.0,
+    "Customer Service Executive": 0.24,
+    "Cyber Security Specialist": 0.0,
+    "Database Administrator": 0.0,
+    "Graphics Designer": 0.0,
+    "Hardware Engineer": 0.29,
+    "Helpdesk Engineer": 0.0,
+    "Information Security Specialist": 0.01,
+    "Networking Engineer": 0.01,
+    "Project Manager": 0.24,
+    "Software Developer": 0.0,
+    "Software tester": 0.01,
+    "Technical Writer": 0.0
+  }
+}
