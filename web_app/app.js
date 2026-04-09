@@ -2,8 +2,8 @@
 // --- Configuration ---
 const CONFIG = {
     // 💡 UPDATE THIS after deploying your backend to Render
-    PRODUCTION_API_URL: 'https://your-backend-name.onrender.com', 
-    
+    PRODUCTION_API_URL: 'https://career-prediction-backend.onrender.com',
+
     DEVELOPMNET_URLS: [
         'http://127.0.0.1:5000',
         'http://localhost:5000'
@@ -303,20 +303,20 @@ async function processData() {
             body: JSON.stringify({ features })
         });
 
-            if (!response.ok) throw new Error("Server Error");
-            const prediction = await response.json();
+        if (!response.ok) throw new Error("Server Error");
+        const prediction = await response.json();
 
-            state.currentPrediction = prediction;
+        state.currentPrediction = prediction;
 
-            // 2. Safely attempt UI Rendering
-            try {
-                displayResult(prediction);
-            } catch (uiError) {
-                console.error("Dashboard UI Error:", uiError);
-                // Fallback: simple display if dashboard engine crashes
-                showSection('step-result');
-                document.getElementById('result-role').innerText = prediction.career;
-            }
+        // 2. Safely attempt UI Rendering
+        try {
+            displayResult(prediction);
+        } catch (uiError) {
+            console.error("Dashboard UI Error:", uiError);
+            // Fallback: simple display if dashboard engine crashes
+            showSection('step-result');
+            document.getElementById('result-role').innerText = prediction.career;
+        }
     } catch (error) {
         console.error("API Connection Error:", error);
         alert("Connection failed. Check if Backend is running.");
