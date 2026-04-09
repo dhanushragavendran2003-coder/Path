@@ -1,0 +1,19 @@
+services:
+  # Backend Web Service
+  - type: web
+    name: career-prediction-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn wsgi:app
+    envVars:
+      - key: DEBUG
+        value: "False"
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 10000
+
+  # Frontend Static Site
+  - type: static
+    name: career-prediction-web
+    publishDir: web_app

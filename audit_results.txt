@@ -1,0 +1,19 @@
+--- Audit Report: Data Ranges ---
+----------------------------------------
+Computer Architecture    : Min=  0.00, Max=  6.00
+Programming Skills       : Min=  0.00, Max=  6.00
+Project Management       : Min=  0.00, Max=  6.00
+Communication skills     : Min=  0.00, Max=  6.00
+----------------------------------------
+Openness                 : Min=  0.00, Max=  1.00
+Conscientousness         : Min=  0.00, Max=  1.00
+Extraversion             : Min=  0.00, Max=  1.00
+Agreeableness            : Min=  0.00, Max=  1.00
+Emotional_Range          : Min=  0.00, Max=  1.00
+Conversation             : Min=  0.00, Max=  1.00
+Openness to Change       : Min=  0.00, Max=  1.00
+Hedonism                 : Min=  0.00, Max=  1.00
+Self-enhancement         : Min=  0.00, Max=  1.00
+Self-transcendence       : Min=  0.00, Max=  1.00
+----------------------------------------
+Target: Role, Classes: 16

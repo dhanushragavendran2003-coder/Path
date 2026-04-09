@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path Recommendation | Institutional Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Academic Navigation -->
+    <nav>
+        <div class="inst-header">Nehru Institute of Engineering and Technology</div>
+        <div class="dept-header">DEPARTMENT OF INFORMATION TECHNOLOGY</div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="container">
+
+        <!-- 1. PORTAL HOME SECTION -->
+        <section id="step-home" class="section-transition">
+            <div class="hero">
+
+                <h1>Career Path Recommendation using Machine Learning Algorithmn</h1>
+                <p>An institutional-grade platform designed for IT students to align academic competencies with industry
+                    roles.</p>
+            </div>
+
+            <!-- Project Team & Guide (Professional Academic Structure) -->
+            <div class="content-card team-card">
+                <div class="team-label subtitle team-title">Research &
+                    Development Team</div>
+                <div class="grid-4 team-grid-compact mb-10">
+                    <div class="mini-member">
+                        <div class="member-name">Dhanush Ragavendran S</div>
+                        <div class="member-id">721422205304</div>
+                    </div>
+                    <div class="mini-member">
+                        <div class="member-name">Akilesh Kumaran S</div>
+                        <div class="member-id">721422205301</div>
+                    </div>
+                    <div class="mini-member">
+                        <div class="member-name">Mohammed Nawfal H</div>
+                        <div class="member-id">721422205305</div>
+                    </div>
+                    <div class="mini-member">
+                        <div class="member-name">Arjun T</div>
+                        <div class="member-id">721422205009</div>
+                    </div>
+                </div>
+
+                <div class="guide-container">
+                    <div class="team-label guide-label">
+                        Under the Guidance of</div>
+                    <div class="guide-name">
+                        Dr. B. Aravind</div>
+                    <div class="guide-title">
+                        PROJECT GUIDE</div>
+                </div>
+            </div>
+
+            <!-- Main Navigation Grid -->
+            <div class="grid-3 portal-nav">
+                <!-- Card 1: Initiate -->
+                <div class="content-card nav-card primary" onclick="startAssessment()">
+                    <div class="nav-card-icon">🚀</div>
+                    <h3>Initiate Assessment</h3>
+                    <p>Start the 14-dimensional ensemble analysis to determine your career trajectory.</p>
+                    <div class="nav-card-footer">Start Protocol ></div>
+                </div>
+
+                <!-- Card 2: Methodology -->
+                <div class="content-card nav-card" onclick="showSection('step-methodology')">
+                    <div class="nav-card-icon">🔬</div>
+                    <h3>Assessment Methodology</h3>
+                    <p>Explore the research-grade framework including technical and psychometric mapping.</p>
+                    <div class="nav-card-footer">View Framework ></div>
+                </div>
+
+                <!-- Card 3: About Project -->
+                <div class="content-card nav-card" onclick="showSection('step-about')">
+                    <div class="nav-card-icon">📘</div>
+                    <h3>Project Information</h3>
+                    <p>Institutional background and objective for IT job role seeking final year students.</p>
+                    <div class="nav-card-footer">Learn More ></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1b. METHODOLOGY SECTION -->
+        <section id="step-methodology" class="hidden section-transition">
+            <div class="content-card">
+                <div class="result-section-header">THE ARCHITECTURE OF PRECISION</div>
+                <h1>Assessment Methodology</h1>
+                <p class="section-intro">We don't just predict; we <b>mathematically align</b>. Our framework utilizes a
+                    14-dimensional feature vector to map your unique DNA across 16 high-growth IT clusters.</p>
+
+                <div class="result-section-header mt-12">01. SYSTEM ARCHITECTURE</div>
+                <div class="grid-3 mt-6">
+                    <div class="mini-card tech-stack tech-box">
+                        <span class="info-icon tech-icon">🎨</span>
+                        <h4 class="tech-title">Frontend Layer</h4>
+                        <p class="tech-desc">Built with <b>HTML5, CSS3, and Vanilla
+                                JavaScript</b> for a premium, lightweight UI. Real-time data visualization is powered by
+                            <b>Chart.js</b> for instant profile analytics.
+                        </p>
+                    </div>
+                    <div class="mini-card tech-stack tech-box">
+                        <span class="info-icon tech-icon">⚡</span>
+                        <h4 class="tech-title">Backend API</h4>
+                        <p class="tech-desc">A robust <b>Python/Flask</b> engine that
+                            handles feature scaling, normalization, and serves as the communication bridge between user
+                            inputs and the ML intelligence layer.</p>
+                    </div>
+                    <div class="mini-card tech-stack tech-box">
+                        <span class="info-icon tech-icon">🧠</span>
+                        <h4 class="tech-title">ML Ensemble Core</h4>
+                        <p class="tech-desc">A <b>Naive Bayes Classifier Ensemble</b> model
+                            trained on thousands of industrial profiles. It establishes a consensus prediction across
+                            14-dimensional feature vectors with high-fidelity confidence scoring.</p>
+                    </div>
+                </div>
+
+                <div class="result-section-header mt-16">02. MULTI-LAYER PREDICTION PROCESS</div>
+                <div class="doc-section process-doc">
+                    <div class="process-grid">
+                        <div>
+                            <h4 class="process-title">Layer 01: The Input Quantizer
+                            </h4>
+                            <p class="process-desc">Your subjective talents are captured
+                                across 14 distinct dimensions. This layer translates human skills—like leadership and
+                                logic—into a digital format that the machine learning engine can understand and process.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 class="process-title">Layer 02: Backend
+                                Synchronization</h4>
+                            <p class="process-desc">In this processing layer, your raw
+                                scores are balanced and scaled. This ensures that every skill is weighted fairly against
+                                the global industry benchmarks stored in our 6,600+ profile dataset.</p>
+                        </div>
+                        <div>
+                            <h4 class="process-title">Layer 03: The Naive Bayes Classifier
+                                Ensemble</h4>
+                            <p class="process-desc">The heart of the system. Your profile
+                                travels through a 'forest' of 100 independent decision-making modules. Each module
+                                analyzes a different combination of your skills to find the most logical career path.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 class="process-title">Layer 04: The Consensus Engine
+                            </h4>
+                            <p class="process-desc">Instead of relying on a single
+                                'guess,' the system gathers the results from all 100 modules. It identifies which career
+                                role received the most 'votes,' ensuring a prediction based on collective forest
+                                intelligence.</p>
+                        </div>
+                        <div>
+                            <h4 class="process-title">Layer 05: The Knowledge Bridge
+                            </h4>
+                            <p class="process-desc">In the final output layer, the
+                                prediction is enriched with professional context. It maps your role to real-world
+                                specializations and provides a certification roadmap to bridge your current skills with
+                                industry demands.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-section-header mt-16">DATA FOUNDATIONS</div>
+                <div class="methodology-grid mt-6">
+                    <div class="work-step step-tech">
+                        <div class="step-num step-num-tech">1</div>
+                        <div class="step-content">
+                            <h4>Multidimensional Feature Extraction</h4>
+                            <p>Analyzing 4 technical pillars: Architecture, Coding, Logic, and Global Communication to
+                                establish your hard-skill baseline.</p>
+                        </div>
+                    </div>
+                    <div class="work-step step-pers">
+                        <div class="step-num step-num-pers">2</div>
+                        <div class="step-content">
+                            <h4>Psychometric Behavioral Mapping</h4>
+                            <p>6 layers of behavioral intelligence based on the Big Five framework to ensure your role
+                                matches your natural workflow.</p>
+                        </div>
+                    </div>
+                    <div class="work-step step-work">
+                        <div class="step-num step-num-work">3</div>
+                        <div class="step-content">
+                            <h4>100-Tree Ensemble Voting</h4>
+                            <p>Your data is processed through 100 independent decision trees. Only the role with the
+                                strongest statistical consensus is revealed.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="doc-section science-doc">
+                    <h4 class="science-title">💡 The Science of Success</h4>
+                    <p class="science-desc">By normalizing subjective self-assessments against
+                        objective industrial benchmarks, we eliminate 'Career Friction,' providing you with a
+                        high-fidelity roadmap for the first 5 years of your professional journey.</p>
+                </div>
+
+                <div class="result-actions mt-12">
+                    <button class="btn btn-primary" onclick="showSection('step-home')">Go Back</button>
+                    <button class="btn btn-ghost" onclick="startAssessment()">Start Assessment</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1c. PROJECT INFORMATION SECTION -->
+        <section id="step-about" class="hidden section-transition">
+            <div class="content-card">
+                <div class="result-section-header">MISSION: EMPOWERING THE NEXT GEN</div>
+                <h1>Project Information & Background</h1>
+
+                <p class="section-intro">This platform represents a strategic bridge between <b>Academic Excellence</b>
+                    and <b>Industrial Competence</b>. It is engineered specifically for B.Tech final-year students
+                    navigating the high-stakes transition to the IT workforce.</p>
+
+                <div class="doc-section about-doc-primary">
+                    <h4>01. The Problem: The Academic-to-Industry Gap</h4>
+                    <p>Current educational frameworks often lack a data-driven mechanism to help students specialize.
+                        Without objective guidance, students frequently enter roles that do not align with their core
+                        cognitive strengths or technical foundations, leading to career stagnation and professional
+                        friction.</p>
+                </div>
+
+                <div class="doc-section about-doc-alt">
+                    <h4>02. The Solution: Predictive Career Modeling</h4>
+                    <p>By utilizing <b>Ensemble Machine Learning (Random Forest)</b>, this system provides an objective,
+                        100-expert consensus on a student's ideal career trajectory. We leverage a dataset of <b>6,600+
+                            real-world industrial profiles</b> to ensure that every recommendation is grounded in
+                        current market realities.</p>
+                </div>
+
+                <div class="grid-2 mt-10">
+                    <div class="mini-card info-item about-card-primary">
+                        <span class="info-icon">🎯</span>
+                        <h4>Strategic Placement</h4>
+                        <p>Aligning final year projects, specialized electives, and internships with your optimal
+                            predicted role for maximum impact.</p>
+                    </div>
+                    <div class="mini-card info-item about-card-tech">
+                        <span class="info-icon">⚡</span>
+                        <h4>Objective Clarity</h4>
+                        <p>Removing 'career anxiety' and 'trial-and-error' decision making through high-fidelity,
+                            data-driven profiling.</p>
+                    </div>
+                </div>
+
+                <div class="doc-section mission-footer">
+                    <h4 class="mission-title-text">Transforming Potential
+                        into Performance</h4>
+                    <p class="mission-subtitle">Our
+                        objective is to ensure that no final-year student enters the workforce without a clear,
+                        data-backed understanding of their professional destination. We are building the next generation
+                        of IT leaders, one prediction at a time.</p>
+                </div>
+
+                <div class="result-actions mt-14">
+                    <button class="btn btn-primary" onclick="showSection('step-home')">Return to Portal</button>
+                    <button class="btn btn-ghost" onclick="showSection('step-methodology')">View Methodology</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ASSESSMENT SECTION -->
+        <section id="step-assessment" class="hidden section-transition">
+            <div class="assessment-header">
+                <div id="q-category-badge" class="category-badge">TECHNICAL SKILLS</div>
+
+                <div class="progress-info">
+                    <span id="q-number">Question 1 of 14</span>
+                    <span id="q-progress">7% Complete</span>
+                </div>
+                <div class="meter-wrapper">
+                    <div id="q-progress-bar" class="meter-fill"></div>
+                </div>
+            </div>
+            <!-- Navigation Breadcrumbs -->
+            <div id="q-progress-container" class="q-progress-container">
+                <div id="q-progress-dots" class="q-progress-dots"></div>
+            </div>
+
+            <!-- Pre-Validation Notice -->
+            <div id="validation-notice" class="validation-notice">
+                <h3>Assessment Incomplete</h3>
+                <p>You have assigned the lowest possible value to all skill areas. Career alignment requires
+                    differentiated responses to identify strengths and growth domains.</p>
+                <span class="subtext">Please review and provide realistic evaluations across skills before
+                    proceeding.</span>
+            </div>
+
+            <!-- Two-column question card -->
+            <div id="q-card" class="question-card tech">
+                <div class="question-content">
+                    <h2 id="q-text">Computer Architecture</h2>
+                    <p id="q-scenario" class="scenario">Evaluation of system internals, memory hierarchy, and
+                        optimization logic proficiency.</p>
+
+                    <div id="q-encouragement" class="encouragement-text">
+                        Initializing technical foundation metrics...
+                    </div>
+                </div>
+
+                <div class="input-interface">
+                    <div class="proficiency-label">
+                        Proficiency Level</div>
+                    <div class="input-box-large">
+                        <input type="text" id="q-input" class="q-input q-input-styled" placeholder="0" maxlength="2"
+                            oninput="validateInput(this)" autocomplete="off">
+                    </div>
+
+                    <div class="range-legend">
+                        <span>Novice (0)</span>
+                        <span>Expert (10)</span>
+                    </div>
+                </div>
+
+                <div id="q-error" class="error-message">
+                    Please enter a valid academic score between 0 and 10.
+                </div>
+            </div>
+
+            <div class="action-bar">
+                <button type="button" class="btn btn-ghost" id="btn-home" onclick="showSection('step-home')">
+                    🏠 Home</button>
+                <button type="button" class="btn btn-ghost" id="btn-back" onclick="prevQuestion()">
+                    < Back</button>
+                        <button type="button" class="btn btn-primary" id="btn-next" onclick="nextQuestion()">
+                            Next Question ></button>
+            </div>
+        </section>
+
+        <!-- 3. PROCESSING SECTION -->
+        <section id="step-processing" class="hidden section-transition">
+            <div class="content-card processing-card-layout">
+                <div class="loader loader-box"></div>
+                <h2 class="processing-title">Profile Computation</h2>
+                <p class="processing-desc">Executing
+                    ensemble cross-validation across 14 factor vectors to establish optimal industry alignment.</p>
+                <div id="ai-log" class="ai-badge">
+                    SYNCHRONIZING VECTORS...
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. RESULT SECTION -->
+        <section id="step-result" class="hidden section-transition">
+            <div class="content-card result-display">
+                <div class="result-section-header">YOUR STRONGEST CAREER ALIGNMENT</div>
+                <div id="role-emblem" class="role-emblem"></div>
+                <h1 id="result-role"></h1>
+                <div id="specialization-focus" class="specialization-focus-block"></div>
+
+                <div class="confidence-section">
+                    <div id="alignment-explanation" class="alignment-explanation">
+                        <!-- Dynamically populated by dashboard-engine.js -->
+                    </div>
+
+                    <div class="alignment-slider-container">
+                        <div class="alignment-slider-track">
+                            <div id="alignment-slider-fill" class="alignment-slider-fill"></div>
+                            <div id="alignment-slider-handle" class="alignment-slider-handle">
+                                <span id="slider-percentage">0%</span>
+                            </div>
+                        </div>
+                        <div class="slider-labels">
+                            <span>Emerging</span>
+                            <span>Strong</span>
+                            <span>Professional</span>
+                        </div>
+                    </div>
+                    <div id="confidence-badge-container"></div>
+                </div>
+
+                <!-- 1. Score Derivation -->
+                <div id="score-derivation-container" class="doc-section">
+                    <h3 class="section-label">Score Derivation Rationale</h3>
+                    <div id="score-derivation"></div>
+                </div>
+
+                <!-- 2. Profile Orientation -->
+                <div id="profile-orientation-container"></div>
+
+                <!-- 3. Role Advisory -->
+                <div id="role-advisory"></div>
+
+                <!-- 4. Analytical Charts -->
+                <div class="analytics-dashboard">
+                    <h3 class="section-label">Research-Grade Analytical Charts</h3>
+                    <div class="charts-grid">
+                        <div class="chart-box">
+                            <h4>Attribute Radar Mapping</h4>
+                            <canvas id="radarChart"></canvas>
+                        </div>
+                        <div class="chart-box">
+                            <h4>Technical vs Behavioral Domain</h4>
+                            <canvas id="techBehChart"></canvas>
+                        </div>
+                        <div class="chart-box full-width">
+                            <h4>Ranked Feature Performance</h4>
+                            <canvas id="strengthDevChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Profile Analysis Footer -->
+                <div class="dashboard-footer-section">
+                    <h3 class="section-label">Profile Analysis (Strengths & Evolution)</h3>
+                    <div id="strength-development"></div>
+                </div>
+
+                <!-- 6. AI Enhanced Layer -->
+                <div class="ai-toggle-container">
+                    <span class="ai-toggle-label">Detailed Analysis Report</span>
+                    <div class="toggle-switch" id="ai-toggle" onclick="toggleAIExplanation()">
+                        <div class="toggle-slider"></div>
+                    </div>
+                    <span class="ai-toggle-label ai-toggle-label-primary">ENABLE AI ADVISORY</span>
+                </div>
+                <div id="ai-explanation-container" class="hidden"></div>
+
+                <!-- 7. Responsible AI Disclosure -->
+                <div id="ai-disclosure-container" class="disclosure-box"></div>
+
+                <!-- 8. Institutional Disclaimer -->
+                <div id="institutional-disclaimer-container"></div>
+                <div class="result-actions">
+                    <button class="btn btn-primary" onclick="startAssessment()">Re‑initialize
+                        Assessment</button>
+                    <button class="btn btn-ghost" onclick="showSection('step-home')">Return to
+                        Portal</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dashboard-engine.js"></script>
+    <script src="ai-engine.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
